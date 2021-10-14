@@ -1,0 +1,168 @@
+body{
+    background-color: #F5F5F5FF;
+    font-family: 'Open Sans', sans-serif;
+}
+
+.container-box{
+    width: 859px;
+    height: 800px;
+    border-radius: 20px;
+    background-color: #fff;
+    margin: 0 auto;
+}
+
+.title-close{
+    background-color: #203774;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+
+.title{
+    margin-left: 40px;
+    color: #fff;
+}
+
+.title h3{
+    font-weight: 600;
+    font-size: 25px;
+}
+
+.close{
+    margin-right: 40px;
+    padding: 8px;
+    cursor: pointer;
+}
+
+/* .close span{
+    color: #fff;
+    font-size: 20px;
+    cursor: pointer;
+} */
+
+.line1{
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    transform: rotate(45deg);
+    position: relative;
+    top: 1px;
+}
+
+.line2{
+    width: 20px;
+    height: 2px;
+    background-color: #fff;
+    transform: rotate(-45deg);
+    position: relative;
+    top: -1px;
+}
+
+.fecha{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 30px;
+}
+
+.fecha-parrafo{
+    margin: 20px 50px;
+}
+
+.fecha-parrafo p{
+    padding: 5px;
+    margin: 0;
+    text-align: center;
+}
+
+.fecha-parrafo p:first-child{
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.fecha-parrafo p:last-child{
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.fecha i:first-child{
+    font-size: 20px;
+    color: #999999FF;
+    cursor: pointer;
+}
+
+.fecha i:last-child{
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.container-card{
+    background-color:#203774;
+    display: flex;
+    justify-content: space-evenly;
+    margin: 20px auto;
+    border-radius: 10px;
+    width: 60%;
+}
+
+.description{
+    width: 50%;
+}
+
+.description h2{
+    color: #fff;
+    margin: 0;
+    margin-top: 20px;
+}
+
+.description .hours{
+    display: flex;
+    align-items: center;
+    margin-bottom: 25px;
+}
+
+.description p{
+    color: #fff;
+}
+
+.description .hours i{
+    font-size: 5px;
+    color: #fff;
+    padding: 0 10px
+}
+
+.img-and-name{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+.img-and-name img{
+    width: 50px;
+    border-radius: 50px;
+    margin-right: 10px;
+    border: 3px solid #4868bd;
+}
+
+.img-and-name p{
+    font-weight: 600;
+}
+
+.container-card .btn button{
+    background-color: #fff;
+    border-radius: 4px;
+    border: none;
+    padding: 12px 18px;
+    margin-top: 30px;
+    font-weight: 600;
+    transition: all 0.5s ease;
+    cursor: pointer;
+}
+
+.container-card .btn button:hover{
+    background-color: #4868bd;
+    color: #fff;
+}
